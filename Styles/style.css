@@ -238,19 +238,115 @@ nav div a:hover {
     justify-content: space-between;
     align-items: center;
     background-color: #222222;
-    padding: 30px 35px;
+    padding: 40px 0;
     border-radius: 18px;
 }
 
 .extra-run-info {
     width: 40%;
+    padding: 0 55px;
 }
 
 .run-image-box {
     width: 40%;
+    padding: 0 55px;
 }
 
 .run-image-box img {
     width: 100%;
     border-radius: 18px;
+}
+
+/* BMI table styles  */
+
+.BMI-parent {
+    background-color: #222222;
+    padding: 52px 0;
+}
+
+.BMI-intro {
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.bmi-content-box {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 170px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+table th {
+    color: #FFFFFF;
+    font-weight: 500;
+    border: 1px solid #FFFFFF1A;
+    padding: 13px 70px 13px 18px;
+    white-space: nowrap;
+}
+
+table td {
+    color: #FFFFFF80;
+    font-size: 14px;
+    border: 1px solid #FFFFFF1A;
+    padding: 13px 50px 13px 18px;
+    white-space: nowrap;
+}
+
+.bmi-chart-title {
+    color: #FFFFFF;
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.form-part {
+    flex-grow: 1;
+}
+
+.height {
+    grid-area: height;
+}
+
+.weight {
+    grid-area: weight;
+}
+
+.age {
+    grid-area: age;
+}
+
+.sex {
+    grid-area: sex;
+}
+
+.activity {
+    grid-area: activity;
+}
+
+.form-part form {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas:
+        "height height height weight weight weight"
+        "age age age sex sex sex"
+        "activity activity activity activity activity activity";
+    gap: 12px;
+    margin-bottom: 34px;
+}
+
+.form-part form input {
+    background-color: #FFFFFF1A;
+    padding: 13px 20px;
+    color: #FFFFFF99;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: none;
 }
