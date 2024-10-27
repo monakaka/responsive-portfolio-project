@@ -276,6 +276,39 @@ nav div a:hover {
     border-radius: 18px;
 }
 
+/* nutrition section styles  */
+.nutrition-box {
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 150px;
+    background-color: #222222;
+    padding: 40px 0;
+    border-radius: 18px;
+}
+
+.nutrious-food-img {
+    width: 40%;
+}
+
+
+.nutrious-food-img img {
+    width: 100%;
+    margin-left: 30px;
+    box-sizing: border-box;
+    border-radius: 18px;
+}
+
+.nutrious-info-box {
+    width: 50%;
+    margin-right: 30px;
+}
+
+.nutrious-info-box ol {
+    text-align: justify;
+}
+
 /* BMI table styles  */
 
 .BMI-parent {
