@@ -200,7 +200,7 @@ nav div a:hover {
 }
 
 
-/* change habbit styles  */
+/* change habit styles  */
 .change-habit-box {
     margin: 50px auto;
 }
@@ -226,15 +226,15 @@ nav div a:hover {
     gap: 40px;
 }
 
-.single-cirle-card {
+.single-circle-card {
     text-align: center;
 }
 
-.single-cirle-card p {
+.single-circle-card p {
     margin: 8px;
 }
 
-.single-cirle-card img {
+.single-circle-card img {
     border: 1px solid #6d6d6b;
     border-radius: 50%;
 }
@@ -402,7 +402,7 @@ table td {
     opacity: 0.7;
 }
 
-.trianer-name {
+.trainer-name {
     font-size: 18px;
     font-weight: 800;
     color: #FAFAF9;
