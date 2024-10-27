@@ -260,6 +260,8 @@ nav div a:hover {
 /* BMI table styles  */
 
 .BMI-parent {
+    max-width: 1440px;
+    margin: 0 auto;
     background-color: #222222;
     padding: 52px 0;
 }
@@ -324,10 +326,26 @@ table td {
 
 .sex {
     grid-area: sex;
+    position: relative;
 }
 
 .activity {
     grid-area: activity;
+    position: relative;
+}
+
+.sex i {
+    position: absolute;
+    right: 15px;
+    top: 13px;
+    color: #999997;
+}
+
+.activity i {
+    position: absolute;
+    right: 15px;
+    top: 13px;
+    color: #999997;
 }
 
 .form-part form {
