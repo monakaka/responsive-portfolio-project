@@ -70,6 +70,7 @@ nav {
 nav a {
     text-decoration: none;
     font-size: 18px;
+    padding: 8px 20px;
 }
 
 nav>a {
@@ -78,7 +79,7 @@ nav>a {
 }
 
 nav div>a {
-    margin-right: 47px;
+    margin-right: 27px;
     color: #ffff;
 }
 
@@ -88,6 +89,12 @@ nav div a:hover {
     background-color: #E6533C;
     color: #ffff;
     font-weight: 600;
+    transition: background-color 0.5s linear;
+}
+
+.hamburg {
+    color: #ffff;
+    display: none;
 }
 
 /* banner section styles  */
