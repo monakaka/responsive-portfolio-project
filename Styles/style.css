@@ -392,3 +392,55 @@ table td {
     left: 15px;
     bottom: 16px;
 }
+
+/* footer style  */
+footer {
+    margin: 30px auto;
+
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+}
+
+.footer-title {
+    font-size: 70px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.footer-common-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #FAFAF9;
+}
+
+.get-start-items {
+    padding: 0;
+}
+
+.get-start-items li a {
+    text-decoration: none;
+    font-size: 23px;
+    color: #FFFFFF80;
+}
+
+.intro-box,
+.get-started-box,
+.get-help-box {
+    width: 100%;
+}
+
+footer hr {
+    margin: 70px 0 36px 0;
+    background-color: #FFFFFF1A;
+    border: 1px solid #FFFFFF1A;
+}
+
+#right-reservation {
+    color: #FFFFFF80;
+    font-size: 20px;
+    text-align: center;
+}
