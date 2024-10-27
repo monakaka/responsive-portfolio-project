@@ -1,0 +1,178 @@
+/* google fonts link  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* miama font link  */
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+.miama-font {
+    font-family: 'Miama', sans-serif;
+}
+
+/* common styles zone  */
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.common-width {
+    max-width: 1060px;
+    width: 77%;
+}
+
+.primary-color {
+    color: #E6533C;
+}
+
+.description-color {
+    color: #FFFFFF80;
+}
+
+button {
+    cursor: pointer;
+}
+
+.primary-color-btn {
+    border: none;
+    border-radius: 42px;
+    padding: 16px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffff;
+    background-color: #E6533C;
+}
+
+/* nav section styles  */
+
+nav {
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav>a {
+    font-weight: 800;
+    font-size: 36px;
+}
+
+nav div>a {
+    margin-right: 47px;
+    color: #ffff;
+}
+
+nav div a:hover {
+    border-radius: 46px;
+    padding: 8px 20px;
+    background-color: #E6533C;
+    color: #ffff;
+    font-weight: 600;
+}
+
+/* banner section styles  */
+
+.banner {
+    margin: 97px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-info-box {
+    width: 50%;
+}
+
+
+.banner-info-box h1 {
+    font-size: 78px;
+    font-weight: 900;
+    color: #ffff;
+    line-height: 120%;
+    margin: 0;
+}
+
+.banner-info-box>h1>span {
+    font-size: 1.50em;
+    font-weight: 400;
+}
+
+
+.banner-info-box p {
+    margin: 28px 0;
+}
+
+.banner-download-btn {
+    border: 1px solid #FFFFFF;
+    border-radius: 42px;
+    padding: 16px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffff;
+    background-color: black;
+    margin-left: 14px;
+}
+
+.banner-img-box {
+    position: relative;
+}
+
+
+/* badges styles  */
+.upper-badge {
+    width: 40%;
+    border-radius: 12px;
+    padding: 17px 24px;
+    background-color: #FFFFFF3A;
+    position: absolute;
+    top: 130px;
+    right: -70px;
+}
+
+.upper-badge h2 {
+    font-size: 40px;
+    font-weight: 900;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.upper-badge p {
+    color: #FFFFFFA6;
+    font-size: 13px;
+    margin: 0;
+}
+
+
+.low-badge {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    background-color: #3030308A;
+    padding: 20px 23px;
+    border-radius: 12px;
+    position: absolute;
+    bottom: 75px;
+    left: -100px;
+}
+
+.low-badge h3 {
+    color: #FAFAF9;
+    font-size: 24px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.low-badge .circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #E6533C;
+}
