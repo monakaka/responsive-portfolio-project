@@ -189,6 +189,14 @@ nav div a:hover {
     height: 40px;
     border-radius: 50%;
     background-color: #E6533C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle i {
+    color: #FAFAF9;
+    display: none;
 }
 
 
