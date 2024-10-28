@@ -1,6 +1,21 @@
 @media screen and (max-width:676px) {
+    body {
+        overflow-x: hidden;
+    }
+
     .common-width {
         width: 90%;
+    }
+
+    .primary-color-btn {
+        border: none;
+        border-radius: 20px;
+        padding: 14px 20px;
+        font-size: 16px;
+        font-weight: 600;
+        color: #ffff;
+        background-color: #E6533C;
+        white-space: nowrap;
     }
 
     .common-title {
@@ -43,16 +58,7 @@
 
     }
 
-    .primary-color-btn {
-        border: none;
-        border-radius: 20px;
-        padding: 14px 20px;
-        font-size: 16px;
-        font-weight: 600;
-        color: #ffff;
-        background-color: #E6533C;
-        white-space: nowrap;
-    }
+
 
     .banner-download-btn {
         border: 1px solid #FFFFFF;
@@ -68,9 +74,12 @@
 
 
     .banner-img-box {
-        width: 100%;
+        width: 90%;
     }
 
+    .banner-img-box img {
+        width: 100%;
+    }
 
     .upper-badge {
         width: 30%;
