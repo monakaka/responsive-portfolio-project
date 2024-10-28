@@ -61,7 +61,7 @@ button {
 /* nav section styles  */
 
 nav {
-    margin: 50px auto;
+    margin: 25px auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -144,7 +144,6 @@ nav div a:hover {
     position: relative;
 }
 
-
 /* badges styles  */
 .upper-badge {
     width: 40%;
@@ -213,7 +212,7 @@ nav div a:hover {
 
 /* change habit styles  */
 .change-habit-box {
-    margin: 50px auto;
+    margin: 70px auto;
 }
 
 .change-habit-intro {
@@ -265,6 +264,10 @@ nav div a:hover {
 .extra-run-info {
     width: 40%;
     padding: 0 55px;
+}
+
+.extra-run-info button {
+    margin-top: 34px;
 }
 
 .run-image-box {
@@ -467,7 +470,6 @@ table td {
 /* footer style  */
 footer {
     margin: 30px auto;
-
 }
 
 .footer-content {
