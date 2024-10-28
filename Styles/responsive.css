@@ -40,6 +40,7 @@
 
     .banner-btn-box {
         display: flex;
+
     }
 
     .primary-color-btn {
@@ -75,8 +76,8 @@
         width: 30%;
         border-radius: 12px;
         padding: 13px 18px;
-        top: 190px;
-        right: -30px;
+        top: 180px;
+        right: -10px;
     }
 
     .upper-badge h2 {
