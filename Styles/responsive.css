@@ -84,18 +84,18 @@
     .upper-badge {
         width: 30%;
         border-radius: 12px;
-        padding: 13px 18px;
-        top: 180px;
-        right: -10px;
+        padding: 12px;
+        top: 120px;
+        right: 10px;
     }
 
     .upper-badge h2 {
-        font-size: 20px;
+        font-size: 16px;
         font-weight: 600;
     }
 
     .upper-badge p {
-        font-size: 10px;
+        font-size: 8px;
         white-space: nowrap;
     }
 
